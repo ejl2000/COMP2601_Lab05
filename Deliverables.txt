@@ -1,0 +1,26 @@
+Lab 5 Documentation
+@author Nancy Yang
+@author Emma Lee
+@verison 1.0
+
+
+Brief report approach in implementing lab:
+
+- We tried to split up tasks into simpler task in order to figure out how to create each method (e.g. checking for valid date by first seeing the date as a block of strings, then splitting the string into 3 separate blocks by year, month, and day and then validating each)
+
+
+
+Challenges:
+
+- figuring on how to implementing the static validation methods in main.java so that each diary entry is checked for invalid parameters
+
+- Some checks did not work properly due to Java short circuit evaluation
+
+
+How we resolved challenges:
+
+- Randomly input "bad" data for each data and diary content (e.g. bcit) to intentionally "break" the program so we know whether the validation methods are working correctly
+
+- Constantly testing the text-based menu by going back and forth each button option to make sure the loop is working as intented 
+
+- We revised the validation methods so that all parameters are checked properly and that proper use of the OR Operator will not cause Java to conduct short circuit evaluation that bypass necessary parameter checks
